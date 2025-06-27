@@ -1,0 +1,18 @@
+============ Parameters ============
+data_dir: dataset
+cache_dir: cache
+ckpt_dir: ckpt
+output_dir: output
+test_path: None
+dim_node_features: 768
+num_gcn: 3
+num_gnn_layers: 2
+alpha: 0.1
+beta: 0.2
+lr: 1e-05
+batch_size: 8
+num_epoch: 100
+num_workers: 0
+device: cuda
+name: run_01
+mode: 0

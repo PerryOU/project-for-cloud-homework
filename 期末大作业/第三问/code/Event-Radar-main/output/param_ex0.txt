@@ -1,0 +1,23 @@
+============ parameters ============
+data_dir: dataset
+cache_dir: cache
+ckpt_dir: ckpt
+output_dir: output
+test_path: ckpt
+embedding_dim: 64
+text_size: 822
+dim_node_features: 512
+num_dct: 2
+num_gcn: 3
+num_text: 2
+num_gnn_layers: 2
+alpha: 0.1
+beta: 0.2
+gamma: 0.05
+updated_weights_for_A: 0.5
+lr: 2e-06
+batch_size: 4
+device: cuda:0
+num_epoch: 100
+name: ex0
+mode: 0
